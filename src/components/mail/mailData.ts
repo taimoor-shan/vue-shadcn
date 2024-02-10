@@ -195,7 +195,7 @@ export interface Mail {
       {
         label: 'Alicia Koch',
         email: 'alicia@gmail.com',
-      }
+      },
       {
         label: 'Alicia Koch',
         email: 'alicia@me.com',

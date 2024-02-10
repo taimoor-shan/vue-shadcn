@@ -7,6 +7,7 @@ import {
   CardTitle,
 } from '../components/ui/card'
 import { Button } from '../components/ui/button'
+// import Layout from '@/components/layout.vue'
 
 </script>
 <template>
@@ -25,8 +26,7 @@ import { Button } from '../components/ui/button'
             <Button>
                 <router-link to="/dashboard">
                     Go to dashboard
-    </router-link>
- 
+                </router-link>
          
             </Button>
           </CardFooter>

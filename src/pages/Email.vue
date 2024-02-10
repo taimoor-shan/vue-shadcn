@@ -1,13 +1,8 @@
 <template>
-  <div>
-    <h2>Hello World</h2>
-  </div>
+    <Mail :accounts="accounts" :mails="mails" />
 </template>
-<script lang="ts">
-export default {
-  
-}
+
+<script setup lang="ts">
+import Mail from '@/components/mail/Mail.vue';
+import { accounts, mails } from '@/components/mail/mailData';
 </script>
-<style lang="">
-  
-</style>
